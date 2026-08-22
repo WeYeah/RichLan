@@ -1,0 +1,41 @@
+name: daily-update
+
+on:
+  schedule:
+    # 北京时间 15:30（UTC 07:30），周一至周五，A股收盘后
+    - cron: '30 7 * * 1-5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run daily update
+        run: python scripts/update.py
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/snapshot.json data/brief.md
+          git commit -m "chore: daily update $(date +%F)" || echo "no change"
+          git push || echo "push failed"
+
+      - name: Notify
+        env:
+          WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+          GENERIC_WEBHOOK: ${{ secrets.GENERIC_WEBHOOK }}
+        run: python scripts/notify.py
