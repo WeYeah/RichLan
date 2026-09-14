@@ -1,39 +1,31 @@
 {
-  "updated": "2026-09-11 12:17",
-  "updated_date": "2026-09-11",
+  "updated": "2026-09-14 14:18",
+  "updated_date": "2026-09-14",
   "note": "由 GitHub Actions 每日自动更新",
   "stocks": {
     "yk": {
       "name": "英维克",
       "code": "002837",
       "quote": {
-        "price": 60.55,
-        "prev": 61.08,
-        "open": 61.08,
-        "change": -0.53,
-        "pct": -0.87,
-        "high": 61.81,
-        "low": 59.38,
-        "vol": 376213.0,
-        "amount": 22.7862,
-        "turn": 3.31,
-        "pe": 157.69,
-        "pb": 21.6,
-        "mktcap": 774.33,
-        "floatcap": 687.2,
-        "up_limit": 67.19,
-        "dn_limit": 54.97,
-        "ratio": 0.73
+        "price": 60.01,
+        "prev": 60.55,
+        "open": 60.26,
+        "change": -0.54,
+        "pct": -0.89,
+        "high": 61.18,
+        "low": 58.68,
+        "vol": 284395.0,
+        "amount": 17.0027,
+        "turn": 2.51,
+        "pe": 156.28,
+        "pb": 21.41,
+        "mktcap": 767.43,
+        "floatcap": 681.08,
+        "up_limit": 66.61,
+        "dn_limit": 54.5,
+        "ratio": 0.67
       },
       "kline": [
-        [
-          "2026-05-07",
-          75.639,
-          78.739,
-          79.485,
-          74.492,
-          587315.0
-        ],
         [
           "2026-05-08",
           77.562,
@@ -753,67 +745,67 @@
           61.81,
           59.38,
           376213.0
+        ],
+        [
+          "2026-09-14",
+          60.26,
+          60.01,
+          61.18,
+          58.68,
+          284395.0
         ]
       ],
       "confidence": {
-        "score": 55,
+        "score": 35,
         "factors": {
           "momentum": {
             "label": "近20日动量",
-            "score": 19,
-            "value": 6.1
+            "score": 15,
+            "value": 2.2
           },
           "ma": {
             "label": "均线结构",
-            "score": 12,
+            "score": 0,
             "value": "跌破MA20"
           },
           "volume": {
             "label": "量能活跃",
-            "score": 18,
-            "value": 3.3
+            "score": 14,
+            "value": 2.5
           },
           "valuation": {
             "label": "估值安全",
             "score": 6,
-            "value": 157.7
+            "value": 156.3
           }
         },
-        "trend": "up",
-        "level": "中性偏多"
+        "trend": "down",
+        "level": "中性偏弱"
       }
     },
     "fl": {
       "name": "飞龙股份",
       "code": "002536",
       "quote": {
-        "price": 53.3,
-        "prev": 53.71,
-        "open": 52.9,
-        "change": -0.41,
-        "pct": -0.76,
-        "high": 53.82,
-        "low": 50.79,
-        "vol": 504166.0,
-        "amount": 26.4221,
-        "turn": 9.25,
-        "pe": 168.15,
+        "price": 53.29,
+        "prev": 53.3,
+        "open": 53.02,
+        "change": -0.01,
+        "pct": -0.02,
+        "high": 54.92,
+        "low": 51.9,
+        "vol": 415981.0,
+        "amount": 22.2586,
+        "turn": 7.63,
+        "pe": 168.12,
         "pb": 9.2,
-        "mktcap": 306.36,
-        "floatcap": 290.66,
-        "up_limit": 59.08,
-        "dn_limit": 48.34,
-        "ratio": 0.67
+        "mktcap": 306.3,
+        "floatcap": 290.6,
+        "up_limit": 58.63,
+        "dn_limit": 47.97,
+        "ratio": 0.63
       },
       "kline": [
-        [
-          "2026-05-07",
-          36.41,
-          39.1,
-          39.3,
-          35.78,
-          587361.0
-        ],
         [
           "2026-05-08",
           37.84,
@@ -1533,15 +1525,23 @@
           53.82,
           50.79,
           504166.0
+        ],
+        [
+          "2026-09-14",
+          53.02,
+          53.29,
+          54.92,
+          51.9,
+          415981.0
         ]
       ],
       "confidence": {
-        "score": 81,
+        "score": 75,
         "factors": {
           "momentum": {
             "label": "近20日动量",
-            "score": 25,
-            "value": 25.1
+            "score": 22,
+            "value": 15.6
           },
           "ma": {
             "label": "均线结构",
@@ -1550,16 +1550,16 @@
           },
           "volume": {
             "label": "量能活跃",
-            "score": 25,
-            "value": 9.2
+            "score": 22,
+            "value": 7.6
           },
           "valuation": {
             "label": "估值安全",
             "score": 6,
-            "value": 168.2
+            "value": 168.1
           }
         },
-        "trend": "flat",
+        "trend": "down",
         "level": "偏强"
       }
     }
