@@ -1,29 +1,29 @@
 {
-  "updated": "2026-09-25 12:51",
-  "updated_date": "2026-09-25",
+  "updated": "2026-09-28 15:43",
+  "updated_date": "2026-09-28",
   "note": "由 GitHub Actions 每日自动更新",
   "stocks": {
     "yk": {
       "name": "英维克",
       "code": "002837",
       "quote": {
-        "price": 57.22,
-        "prev": 61.25,
-        "open": 60.7,
-        "change": -4.03,
-        "pct": -6.58,
-        "high": 60.8,
-        "low": 57.0,
-        "vol": 509441.0,
-        "amount": 29.6023,
-        "turn": 4.49,
-        "pe": 149.02,
-        "pb": 20.41,
-        "mktcap": 731.75,
-        "floatcap": 649.41,
-        "up_limit": 67.38,
-        "dn_limit": 55.13,
-        "ratio": 1.57
+        "price": 54.36,
+        "prev": 57.22,
+        "open": 56.98,
+        "change": -2.86,
+        "pct": -5.0,
+        "high": 57.27,
+        "low": 54.1,
+        "vol": 299747.0,
+        "amount": 16.5449,
+        "turn": 2.64,
+        "pe": 141.57,
+        "pb": 19.39,
+        "mktcap": 695.17,
+        "floatcap": 616.95,
+        "up_limit": 62.94,
+        "dn_limit": 51.5,
+        "ratio": 0.83
       },
       "kline": [
         [
@@ -745,15 +745,23 @@
           60.8,
           57.0,
           509441.0
+        ],
+        [
+          "2026-09-28",
+          56.98,
+          54.36,
+          57.27,
+          54.1,
+          299747.0
         ]
       ],
       "confidence": {
-        "score": 30,
+        "score": 22,
         "factors": {
           "momentum": {
             "label": "近20日动量",
-            "score": 6,
-            "value": -13.3
+            "score": 2,
+            "value": -15.7
           },
           "ma": {
             "label": "均线结构",
@@ -762,40 +770,40 @@
           },
           "volume": {
             "label": "量能活跃",
-            "score": 18,
-            "value": 4.5
+            "score": 14,
+            "value": 2.6
           },
           "valuation": {
             "label": "估值安全",
             "score": 6,
-            "value": 149.0
+            "value": 141.6
           }
         },
-        "trend": "flat",
-        "level": "中性偏弱"
+        "trend": "down",
+        "level": "偏弱"
       }
     },
     "fl": {
       "name": "飞龙股份",
       "code": "002536",
       "quote": {
-        "price": 50.67,
-        "prev": 52.27,
-        "open": 51.9,
-        "change": -1.6,
-        "pct": -3.06,
-        "high": 52.38,
-        "low": 50.3,
-        "vol": 273065.0,
-        "amount": 13.9271,
-        "turn": 5.01,
-        "pe": 159.85,
-        "pb": 8.75,
-        "mktcap": 291.24,
-        "floatcap": 276.31,
-        "up_limit": 57.5,
-        "dn_limit": 47.04,
-        "ratio": 0.68
+        "price": 46.5,
+        "prev": 50.67,
+        "open": 50.47,
+        "change": -4.17,
+        "pct": -8.23,
+        "high": 50.6,
+        "low": 46.3,
+        "vol": 357072.0,
+        "amount": 16.9867,
+        "turn": 6.55,
+        "pe": 146.7,
+        "pb": 8.03,
+        "mktcap": 267.28,
+        "floatcap": 253.58,
+        "up_limit": 55.74,
+        "dn_limit": 45.6,
+        "ratio": 0.93
       },
       "kline": [
         [
@@ -1517,15 +1525,23 @@
           52.38,
           50.3,
           273065.0
+        ],
+        [
+          "2026-09-28",
+          50.47,
+          46.5,
+          50.6,
+          46.3,
+          357072.0
         ]
       ],
       "confidence": {
-        "score": 38,
+        "score": 34,
         "factors": {
           "momentum": {
             "label": "近20日动量",
-            "score": 10,
-            "value": -6.6
+            "score": 6,
+            "value": -12.8
           },
           "ma": {
             "label": "均线结构",
@@ -1535,15 +1551,15 @@
           "volume": {
             "label": "量能活跃",
             "score": 22,
-            "value": 5.0
+            "value": 6.5
           },
           "valuation": {
             "label": "估值安全",
             "score": 6,
-            "value": 159.8
+            "value": 146.7
           }
         },
-        "trend": "flat",
+        "trend": "down",
         "level": "中性偏弱"
       }
     }
