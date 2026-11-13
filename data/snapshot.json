@@ -1,29 +1,29 @@
 {
-  "updated": "2026-11-12 16:05",
-  "updated_date": "2026-11-12",
+  "updated": "2026-11-13 15:34",
+  "updated_date": "2026-11-13",
   "note": "由 GitHub Actions 每日自动更新",
   "stocks": {
     "yk": {
       "name": "英维克",
       "code": "002837",
       "quote": {
-        "price": 40.98,
-        "prev": 43.32,
-        "open": 43.34,
-        "change": -2.34,
-        "pct": -5.4,
-        "high": 44.5,
-        "low": 40.82,
-        "vol": 666722.0,
-        "amount": 28.4522,
-        "turn": 5.87,
-        "pe": 106.67,
-        "pb": 13.78,
-        "mktcap": 524.26,
-        "floatcap": 465.3,
-        "up_limit": 47.65,
-        "dn_limit": 38.99,
-        "ratio": 1.94
+        "price": 38.36,
+        "prev": 40.98,
+        "open": 41.04,
+        "change": -2.62,
+        "pct": -6.39,
+        "high": 41.57,
+        "low": 38.15,
+        "vol": 399342.0,
+        "amount": 15.7887,
+        "turn": 3.52,
+        "pe": 99.85,
+        "pb": 12.9,
+        "mktcap": 490.75,
+        "floatcap": 435.55,
+        "up_limit": 45.08,
+        "dn_limit": 36.88,
+        "ratio": 0.99
       },
       "kline": [
         [
@@ -745,15 +745,23 @@
           44.5,
           40.82,
           666722.0
+        ],
+        [
+          "2026-11-13",
+          41.04,
+          38.36,
+          41.57,
+          38.15,
+          399342.0
         ]
       ],
       "confidence": {
-        "score": 38,
+        "score": 34,
         "factors": {
           "momentum": {
             "label": "近20日动量",
             "score": 6,
-            "value": -8.3
+            "value": -14.2
           },
           "ma": {
             "label": "均线结构",
@@ -762,13 +770,13 @@
           },
           "volume": {
             "label": "量能活跃",
-            "score": 22,
-            "value": 5.9
+            "score": 18,
+            "value": 3.5
           },
           "valuation": {
             "label": "估值安全",
             "score": 10,
-            "value": 106.7
+            "value": 99.8
           }
         },
         "trend": "down",
@@ -779,23 +787,23 @@
       "name": "飞龙股份",
       "code": "002536",
       "quote": {
-        "price": 31.45,
-        "prev": 32.38,
-        "open": 32.29,
-        "change": -0.93,
-        "pct": -2.87,
-        "high": 33.38,
-        "low": 31.33,
-        "vol": 368489.0,
-        "amount": 11.9478,
-        "turn": 6.76,
-        "pe": 132.2,
-        "pb": 5.41,
-        "mktcap": 180.77,
-        "floatcap": 171.5,
-        "up_limit": 35.62,
-        "dn_limit": 29.14,
-        "ratio": 1.04
+        "price": 29.25,
+        "prev": 31.45,
+        "open": 31.91,
+        "change": -2.2,
+        "pct": -7.0,
+        "high": 31.99,
+        "low": 29.1,
+        "vol": 333753.0,
+        "amount": 10.1295,
+        "turn": 6.12,
+        "pe": 122.95,
+        "pb": 5.03,
+        "mktcap": 168.12,
+        "floatcap": 159.51,
+        "up_limit": 34.6,
+        "dn_limit": 28.31,
+        "ratio": 0.98
       },
       "kline": [
         [
@@ -1517,6 +1525,14 @@
           33.38,
           31.33,
           368489.0
+        ],
+        [
+          "2026-11-13",
+          31.91,
+          29.25,
+          31.99,
+          29.1,
+          333753.0
         ]
       ],
       "confidence": {
@@ -1525,7 +1541,7 @@
           "momentum": {
             "label": "近20日动量",
             "score": 2,
-            "value": -22.0
+            "value": -28.0
           },
           "ma": {
             "label": "均线结构",
@@ -1535,12 +1551,12 @@
           "volume": {
             "label": "量能活跃",
             "score": 22,
-            "value": 6.8
+            "value": 6.1
           },
           "valuation": {
             "label": "估值安全",
             "score": 6,
-            "value": 132.2
+            "value": 123.0
           }
         },
         "trend": "flat",
